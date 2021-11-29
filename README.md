@@ -7,10 +7,13 @@ This project works as a command-line character creator. It allows a user to crea
 Each character created will have 5 unique stats (`Strength`, `Constitution`, `Finesse`, `Intelligence`, and `Perception`) starting with a base skill level of 14 but increasing/decreasing based on the chosen race and type. After the type and race are chosen the player will then be able to pick a name and age, this will then all be printed in the console.
 The program also creates a randomly generated opponent for the player, that will battle against them using one of the 5 randomly chosen stats. Depending on who has a higher value in that stat, determines the winner and the result will be printed in the console.
 
-# INSTALLATION
+# INSTALLATION AND GAMEPLAY INSTRUCTIONS
 1. Download files
 2. Using C++ in Unix Terminal navigate to directory and enter `make Main` to compile
 3. Use `./run` to start program
 4. Follow prompts to create your desired character
 5. After creation your Character will automatically battle a randomly generated opponent using one of their stat types.
 6. Winner is announced, and program terminates. To play again, simply re-run using `./run`!
+
+## SAMPLE GAMEPLAY
+<img width="850" alt="SampleGameplay" src="https://user-images.githubusercontent.com/92675290/143851364-b8e1a168-8c9d-43b8-aa54-bb75a94adec7.png">
